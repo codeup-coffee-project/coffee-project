@@ -8,6 +8,15 @@ td, th {
     padding: 5px 10px;
 }
 
+/*.coffee-box1{*/
+	/*width: 40%;*/
+/*}*/
+
+.coffee-bg-color{
+	background-color: indigo;
+	margin-top: 5px;
+}
+
 .coffee-types {
     background-color: teal;
 }
@@ -15,3 +24,4 @@ td, th {
 .drop-down{
     background-color: rebeccapurple;
 }
+

@@ -26,24 +26,55 @@
         <div class="row">
 
             <div class="col-6 coffee-types">
-                <table>
-                    <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>NAME</th>
-                        <th>ROAST</th>
-                    </tr>
-                    </thead>
-                    <tbody id="coffees"></tbody>
-                </table>
+                <!--<table>-->
+                    <!--<thead>-->
+                    <!--<tr>-->
+                        <!--<th>ID</th>-->
+                        <!--<th>NAME</th>-->
+                        <!--<th>ROAST</th>-->
+                    <!--</tr>-->
+                    <!--</thead>-->
+
+
+
+                    <!--<tbody id="coffees"></tbody>-->
+                <!--</table>-->
+                    <div class="row">
+                        <div class="col float-left coffee-box1" style="width: 45%">
+                            <div id="coffee-1" class="coffee-bg-color">test</div>
+                            <div id="coffee-2" class="coffee-bg-color">test</div>
+                            <div id="coffee-3" class="coffee-bg-color">test</div>
+                            <div id="coffee-4" class="coffee-bg-color">test</div>
+                            <div id="coffee-5" class="coffee-bg-color">test</div>
+                            <div id="coffee-6" class="coffee-bg-color">test</div>
+                            <div id="coffee-7" class="coffee-bg-color">test</div>
+                        </div>
+
+                        <div class="col clearfix" style="width: 45%">
+                            <div id="coffee-8" class="coffee-bg-color">test</div>
+                            <div id="coffee-9" class="coffee-bg-color">test</div>
+                            <div id="coffee-10" class="coffee-bg-color">test</div>
+                            <div id="coffee-11" class="coffee-bg-color">test</div>
+                            <div id="coffee-12" class="coffee-bg-color">test</div>
+                            <div id="coffee-13" class="coffee-bg-color">test</div>
+                            <div id="coffee-14" class="coffee-bg-color">test</div>
+                        </div>
+                    </div>
             </div>
 
-            <div class="col-6 c-400">
+
+
+
+
+
+            <div class="col-6 c-400 drop-down-top">
                 <div>
-                    <form class="drop-down">
+                    <form>
+                        <!-- use change event for drop down-->
                         <div class="form-group">
-                            <label for="exampleFormControlSelect1">Roast</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label for="top-pick-that-coffee">Roast</label>
+                            <select class="form-control" id="top-pick-that-coffee">
+                                <option>All</option>
                                 <option>Light</option>
                                 <option>Medium</option>
                                 <option>Dark</option>
@@ -60,15 +91,39 @@
                         <button type="button" class="btn-block">Submit</button>
                     </form>
                 </div>
-            </div>
+
 
             <hr>
 
+            <form>
+                <!-- use change event drop down-->
+                <div class="form-group">
+                    <label for="bottom-pick-that-coffee">Roast</label>
+                    <select class="form-control" id="bottom-pick-that-coffee">
+                        <option>All</option>
+                        <option>Light</option>
+                        <option>Medium</option>
+                        <option>Dark</option>
+                    </select>
+                </div>
+            </form>
+
+                <h6>Coffee Name</h6>
+                <form class="form-inline">
+                    <input class="form-control w-100" style="width: auto;" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <br>
+                <form>
+                    <button type="button" class="btn-block">Submit</button>
+                </form>
+
+
+
+            </div>
+        </div>
 
         </div>
-    </div>
 
-    </div>
 
 
 

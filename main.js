@@ -48,6 +48,11 @@ var coffees = [
     {id: 14, name: 'French', roast: 'dark'},
 ];
 
+function makeTopDropListChange() {
+	var topDropList = document.getElementById("top-pick-that-coffee")[0].value;
+}
+
+
 var tbody = document.querySelector('#coffees');
 var submitButton = document.querySelector('#submit');
 var roastSelection = document.querySelector('#roast-selection');
