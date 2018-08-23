@@ -8,9 +8,9 @@ td, th {
     padding: 5px 10px;
 }
 
-/*.coffee-box1{*/
-	/*width: 40%;*/
-/*}*/
+.coffee-box1{
+	width: 40%;
+}
 
 .coffee-bg-color{
 	background-color: indigo;
