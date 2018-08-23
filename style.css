@@ -8,6 +8,9 @@ td, th {
     padding: 5px 10px;
 }
 
+#coffees{
+	height: 600px;
+}
 .coffee-box1{
 	width: 40%;
 }
